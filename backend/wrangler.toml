@@ -1,4 +1,4 @@
-name = "NAME_OF_WORKER"
+name = "name-of-worker"
 compatibility_date = "2024-09-18"
 
 [vars]
