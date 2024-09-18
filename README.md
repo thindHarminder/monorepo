@@ -7,7 +7,6 @@ This project is a monorepo containing a frontend JavaScript application and a Cl
 The project is organized as follows:
 
 root/
-
 ├── frontend/ # Vite-powered frontend application
 ├── backend/ # Cloudflare Worker backend
 ├── .github/ # GitHub Actions workflows
