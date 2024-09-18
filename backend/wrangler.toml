@@ -2,5 +2,5 @@ name = "name-of-worker"
 compatibility_date = "2024-09-18"
 
 [vars]
-WEBFLOW_DOMAIN = "fifty-410.webflow.io"
+WEBFLOW_DOMAIN = "https://webflow.com"
 
