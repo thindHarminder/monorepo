@@ -1,0 +1,8 @@
+name = "fifty-410-cf-worker"
+compatibility_date = "2024-09-18"
+
+[vars]
+WEBFLOW_DOMAIN = "fifty-410.webflow.io"
+OPENLOOP_STAGING_FORM_ID = "1172921"
+OPENLOOP_PRODUCTION_FORM_ID = "1975412"
+

@@ -1,0 +1,14 @@
+{
+  "name": "@monolithic-cf-repo/backend",
+  "scripts": {
+    "dev": "wrangler dev src/index.ts --port=8780 --compatibility-flags='nodejs_compat'",
+    "deploy": "wrangler deploy --minify src/index.ts --compatibility-flags='nodejs_compat'"
+  },
+  "dependencies": {
+    "hono": "^4.5.5"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240529.0",
+    "wrangler": "^3.57.2"
+  }
+}
