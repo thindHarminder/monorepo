@@ -37,7 +37,7 @@ root/
 
    - CLOUDFLARE_API_TOKEN
    - CLOUDFLARE_ACCOUNT_ID
-   - CLOUDFLARE_PROJECT_NAME (for Pages)
+   - CLOUDFLARE_FRONTEND_PROJECT_NAME (for Pages)
 
 5. Customize the frontend and backend code as needed
 

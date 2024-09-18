@@ -30,7 +30,7 @@ jobs:
             backend:
               - 'backend/**'
 
-  deploy_embed:
+  deploy_frontend:
     needs: check_changes
     if: needs.check_changes.outputs.frontend_changed == 'true'
     runs-on: ubuntu-latest
@@ -47,7 +47,7 @@ jobs:
           directory: frontend/dist
           branch: main
 
-  deploy_server:
+  deploy_backend:
     needs: check_changes
     if: needs.check_changes.outputs.backend_changed == 'true'
     runs-on: ubuntu-latest
